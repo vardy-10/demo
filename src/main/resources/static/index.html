@@ -5,8 +5,14 @@
     <title>ok</title>
 </head>
 <body>
-<p style="color: pink">ok2张安好2222</p>
+<p id="time"></p>
 <style>
 </style>
+<script>
+    setTimeout(function () {
+        var p=document.getElementById("time");
+        p.innerHTML=new Date();
+    },1000);
+</script>
 </body>
 </html>
